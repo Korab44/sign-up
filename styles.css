@@ -1,4 +1,49 @@
-p {
-    background-color: black;
-    color: white;
+
+@font-face {
+    font-family: norsebold;
+    src: url('font/webfontkit-20220414-184907/norse-bold-webfont.woff2') format('woff2'),
+         url('font/webfontkit-20220414-184907/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+:root {
+    --create-account-button: #596D48;
+    --the-inputs: #E5E7EB;
 }
+.container {
+    display: flex;
+}
+.photo-container {
+    background: no-repeat center/100% url("background.jpg");
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+.photo-container div:first-child{
+    position: absolute;
+    background: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100px;
+    top: 22%;
+    height: 100px;
+}
+.logo {
+   position: absolute;
+   width: 60px;
+   height: 80px;
+   top: 24%;
+   right: 55%;
+   opacity: 1;
+   
+  
+}
+.logo-text {
+    font-family: norsebold;
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 26%;
+    right: 30%;
+}
+
