@@ -46,4 +46,65 @@
     top: 26%;
     right: 30%;
 }
+.parag {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+.pp {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 55px;
+    padding-right: 200px;
+    border: solid green 2px;
+    
+}
+fieldset {
+    display: flex;
+    gap: 50px;
+    padding-left: 30px;
+    margin: 0px;
+}
+label {
+    display: block;
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+}
+label[for="firstName"],
+label[for="lastName"]{
+    padding-top: 50px;
+}
+.form-container {
+margin-top: 10px;
+position: relative;
+
+
+}
+legend {
+    position: absolute;
+    top: 20px;
+    font-size: 1.5rem;
+    font-weight:300;
+}
+
+.error {
+    border: solid 1px red;
+}
+.error:focus {
+    border: solid 1px red;
+}
+input:focus {
+    outline: 0;
+    border: solid 1px blue;
+    box-shadow: 1px 1px lightblue;
+}
+span {
+    display: block;
+    color: red;
+    font-size: 0.6rem;
+}
 
