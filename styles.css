@@ -52,21 +52,23 @@
     width: 700px;
     height: 600px;
     position: relative;
+    
 }
 .pp {
     font-size: 1.3rem;
     font-weight: bold;
     padding-left: 30px;
-    padding-top: 55px;
+    padding-top: 35px;
     padding-right: 200px;
-    border: solid green 2px;
-    
+    padding-bottom: 10px;
+    background-color: rgb(246, 250, 252);    
 }
 fieldset {
     display: flex;
     gap: 50px;
     padding-left: 30px;
     margin: 0px;
+    border: none;    
 }
 label {
     display: block;
@@ -107,4 +109,31 @@ span {
     color: red;
     font-size: 0.6rem;
 }
-
+.btn {
+    position: relative;
+    height: 167px;
+    background: linear-gradient(to bottom, rgb(208, 230, 241), rgb(246, 250, 252) 2%);
+}
+button {
+    position: absolute;
+    top: 20%;
+    left: 30px;
+    background-color: var(--create-account-button);
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    
+}
+.btn p {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+}
+.silver {
+    display: inline;
+    color: rgb(83, 79, 79);
+    font-size: 1rem;
+    font-weight: bold;
+}
