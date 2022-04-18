@@ -28,15 +28,20 @@
     top: 22%;
     height: 100px;
 }
+.credits {
+    position: absolute;
+    top: 95%;
+    color: white;
+    font-size: 0.6rem;
+    right: 35%;
+}
 .logo {
    position: absolute;
    width: 60px;
    height: 80px;
    top: 24%;
    right: 55%;
-   opacity: 1;
-   
-  
+   opacity: 1;  
 }
 .logo-text {
     font-family: norsebold;
